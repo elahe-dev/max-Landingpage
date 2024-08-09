@@ -1,0 +1,41 @@
+@import url('../yekan/fonts.css');
+body
+,#hero h1
+, *
+{font-family: 'Yekan' !important;}
+.rtl{direction: rtl;}
+h1, h2, h3, h4, h5, h6 , #hero span{font-family: 'YekanBold' !important;}
+#header .logo img{filter: brightness(0);}
+.navbar ul{flex-direction: row-reverse;}
+.featured-services .icon img{width: 50px;}
+.car{width: 70px !important;}
+.icon-box.aos-init.aos-animate {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+p{text-align: justify;direction: rtl;}
+.services .icon-box{width: 100%;}
+.services .icon-box .icon1 img{
+    width: 120px;height: 120px;
+}
+.services .icon-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.counts .count-box p{
+    text-align: center;
+}
+.portfolio .section-title p{width: 80%;}
+.pricing .box figure{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.pricing .box img{width: 100%;}
+.pricing .box h4{font-size: 18px !important;}
+.footer-top .row{flex-direction: row-reverse;}
